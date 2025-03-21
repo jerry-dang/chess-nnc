@@ -30,7 +30,7 @@ We deployed our application similar to the ToDo React app in lab9 using GCP and 
 
 1. Migrating to MongoDB, we were used to working with NeDB and had to migrate to MongoDB partway after devloping most of the features, which resulted in a lot of bugs
 2. Deloying the application itself took awhile to configure and manage a successful app deployment
-3. Creating a web socket server to allow multiple players to join the game and be able to finish the game, video connection was implemented as well but sadly is not currently working production.
+3. Creating a web socket server to allow multiple players to join the game and be able to finish the game, video connection was implemented as well.
 
 ## Contributions
 
