@@ -1,0 +1,32 @@
+.friend-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.friend-item {
+position: relative;
+}
+
+.friend-picture {
+width: 100%;
+height: auto;
+border-radius: 8px;
+}
+
+.friend-popup {
+display: none;
+position: absolute;
+bottom: 100%;
+left: 50%;
+transform: translateX(-50%);
+background-color: #333;
+color: #fff;
+padding: 8px;
+border-radius: 4px;
+white-space: nowrap;
+}
+
+.friend-item:hover .friend-popup {
+display: block;
+}

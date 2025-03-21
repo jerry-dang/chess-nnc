@@ -1,0 +1,50 @@
+.game-page {
+    background: linear-gradient(to right, #3d3d3c, #3d3d3c); /* Example gradient */
+    color: white; /* White text for contrast */
+}
+
+.chess-game {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+}
+
+.chess-game .board {
+    width: 40%;
+    margin: 20px;
+}
+
+.chess-game .pgn-history {
+    /* overflow-y: scroll; */
+    padding: 10px;
+}
+
+.game-over-message {
+    display: flex;
+    justify-content: center;
+    font-weight: 600; /* Semi-bold text */
+}
+
+/* Container for the buttons */
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    margin: 10px; /* Space above the buttons */
+}
+
+/* Style for each button */
+.button-container button {
+    background: transparent; /* No background */
+    border: none; /* Remove borders */
+    color: white; /* White text color */
+    font-weight: 600; /* Semi-bold text */
+    margin-right: 10px; /* Space between buttons */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+/* Last button doesn't need right margin */
+.button-container button:last-child {
+    margin-right: 0;
+}

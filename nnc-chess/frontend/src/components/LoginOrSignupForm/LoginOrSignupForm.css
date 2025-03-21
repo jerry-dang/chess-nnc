@@ -1,0 +1,16 @@
+.form_element {
+    border: none; /* Removes the default border */
+    border-bottom: 2px solid #c1c1c1; /* Adds a bottom border */
+    border-radius: 10px; /* Ensures the border is not rounded by default */
+    padding: 10px; /* Adds some padding inside the input */
+    width: 60%; /* Ensures the input takes the full width */
+    box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+    margin: 2px;
+}
+
+.form_element:focus {
+    outline: none; /* Removes the default focus outline */
+    border-color: #ccc; /* Changes the border color on focus */
+    border-radius: 15px; /* Adds a subtle rounded border on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+}
